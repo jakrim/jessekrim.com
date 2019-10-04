@@ -38,7 +38,7 @@ const ScrollAnimation = keyframes`
 
 const Mouse = styled.rect.attrs(props => ({
   stroke: props.theme.colors.primary,
-  strokeWidth: '3',
+  strokeWidth: '4',
 }))``;
 
 const Scroll = styled.circle`
@@ -48,7 +48,7 @@ const Scroll = styled.circle`
   animation-iteration-count: infinite;
   transform-origin: 50% 20.5px;
   will-change: transform;
-  fill: ${props => props.theme.colors.primary};
+  fill: ${props => props.theme.colors.secondary};
 `;
 
 const MouseIcon = ({ onClick }) => (
@@ -56,7 +56,7 @@ const MouseIcon = ({ onClick }) => (
     <MouseContainer xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130">
       <g fill="none">
         <Mouse width="70" height="118" x="1.5" y="1.5" rx="36" />
-        <Scroll cx="36.5" cy="31.5" r="4.5" />
+        <Scroll cx="36.5" cy="31.5" r="5.5" />
       </g>
     </MouseContainer>
   </ScrollLink>

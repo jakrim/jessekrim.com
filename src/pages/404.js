@@ -3,6 +3,7 @@ import { Heading, Box } from 'rebass';
 import Layout from '../components/Layout';
 import Section from '../components/Section';
 import Triangle from '../components/Triangle';
+import { Link } from 'gatsby';
 
 const Background = () => (
   <div>
@@ -42,6 +43,11 @@ const NotFoundPage = () => (
         </Heading>
         <Heading color="secondary" fontSize={['4rem', '5rem', '6rem']} as="h2">
           {"There isn't anything here"}
+          <br />
+          <hr />
+          <Link to="/" style={{ color: 'black', textDecoration: 'none' }}>
+            Click for Home
+          </Link>
         </Heading>
       </Box>
     </Section.Container>
