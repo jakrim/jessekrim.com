@@ -1,9 +1,9 @@
+import { Link } from 'gatsby';
 import React from 'react';
 import { Heading, Box } from 'rebass';
 import Layout from '../components/Layout';
 import Section from '../components/Section';
 import Triangle from '../components/Triangle';
-import { Link } from 'gatsby';
 
 const Background = () => (
   <div>
