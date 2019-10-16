@@ -45,7 +45,14 @@ const NotFoundPage = () => (
           {"There isn't anything here"}
           <br />
           <hr />
-          <Link to="/" style={{ color: 'black', textDecoration: 'none' }}>
+          <Link
+            to="/"
+            style={{
+              color: 'black',
+              textDecoration: 'none',
+              border: 'solid 2px',
+            }}
+          >
             Click for Home
           </Link>
         </Heading>
