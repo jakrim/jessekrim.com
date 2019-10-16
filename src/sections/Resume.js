@@ -33,38 +33,45 @@ const Background = () => (
       invertX
       invertY
     />
-    {/* <Triangle
+    <Triangle
       color="secondaryLight"
-      height={['80vh', '90vh']}
-      width={['20vw', '100vw']}
+      height={['80vh', '40vh']}
+      width={['20vw', '106vw']}
       invertX
-    />
-
-    <Triangle
-      color="backgroundDark"
-      height={['50vh', '60vh']}
-      width={['50vw', '63vw']}
-      invertX
-    />
-    <Triangle
-      color="primaryDark"
-      height={['20vh', '5vh']}
-      width={['50vw', '100vw']}
     />
     <Triangle
       color="backgroundDark"
       height={['25vh', '20vh']}
       width={['100vw', '100vw']}
+      // invertY
+      invertX
+    />
+
+    {/* <Triangle
+      color="backgroundDark"
+      height={['50vh', '60vh']}
+      width={['50vw', '63vw']}
+      invertX
+    /> */}
+    {/* <Triangle
+      color="primaryDark"
+      height={['20vh', '5vh']}
+      width={['50vw', '100vw']}
+    /> */}
+    <Triangle
+      color="backgroundDark"
+      height={['25vh', '25vh']}
+      width={['100vw', '125vw']}
       invertY
       invertX
     />
     <Triangle
       color="secondaryLight"
       height={['25vh', '8vh']}
-      width={['100vw', '100vw']}
+      width={['100vw', '120vw']}
       invertY
       invertX
-    /> */}
+    />
   </div>
 );
 
