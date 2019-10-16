@@ -68,7 +68,7 @@ const Background = () => (
     <Triangle
       color="secondaryLight"
       height={['25vh', '8vh']}
-      width={['100vw', '120vw']}
+      width={['100vw', '10vw']}
       invertY
       invertX
     />
@@ -76,14 +76,27 @@ const Background = () => (
 );
 
 const Resume = () => (
-  <Section.Container id="resume" Background={Background}>
+  <Section.Container
+    id="resume"
+    Background={Background}
+    style={{
+      paddingTop: '56.25%',
+      // paddingBottom: '56.25%',
+      overflow: 'hidden',
+      position: 'relative',
+      display: 'block',
+      width: '100%',
+    }}
+  >
     <Section.Header name="Resume" icon="💥" label="boom" />
+
     <iframe
       title="resume"
       src="https://resume.creddle.io/resume/b27prs0clh6"
       width="850"
       height="1100"
       seamless
+      frameBorder="0"
       style={{
         alignContent: 'center',
         float: 'right',
