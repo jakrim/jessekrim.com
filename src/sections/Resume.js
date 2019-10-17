@@ -72,8 +72,8 @@ const Resume = () => (
       title="resume"
       src="https://drive.google.com/file/d/1rbbpyg2aoULCyaItBe7uvB9hR-3ez-_P/preview"
       frameBorder="0"
-      width="device-width"
       height="1080px"
+      width="device-width"
       seamless
       overflow="hidden"
       style={{

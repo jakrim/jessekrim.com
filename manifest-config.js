@@ -7,5 +7,5 @@ module.exports = {
   background_color: colors.background,
   theme_color: colors.primary,
   display: 'minimal-ui',
-  icon: './Logo/icon2.svg',
+  icon: './src/components/Logo/icon2.svg',
 };
