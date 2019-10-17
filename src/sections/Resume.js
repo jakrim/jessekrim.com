@@ -1,15 +1,7 @@
 import React from 'react';
-// import { Box, Flex } from 'rebass';
-// import { StaticQuery, graphql } from 'gatsby';
-// import styled from 'styled-components';
-// import ReactMarkdown from 'react-markdown';
-// import Fade from 'react-reveal/Fade';
 import Section from '../components/Section';
 import Triangle from '../components/Triangle';
 import '../responsive.css';
-// import markdownRenderer from '../components/MarkdownRenderer';
-
-// import { Container } from '../components/Section';
 
 const Background = () => (
   <div>
@@ -44,21 +36,8 @@ const Background = () => (
       color="backgroundDark"
       height={['25vh', '20vh']}
       width={['100vw', '100vw']}
-      // invertY
       invertX
     />
-
-    {/* <Triangle
-      color="backgroundDark"
-      height={['50vh', '60vh']}
-      width={['50vw', '63vw']}
-      invertX
-    /> */}
-    {/* <Triangle
-      color="primaryDark"
-      height={['20vh', '5vh']}
-      width={['50vw', '100vw']}
-    /> */}
     <Triangle
       color="backgroundDark"
       height={['25vh', '25vh']}
@@ -82,7 +61,6 @@ const Resume = () => (
     Background={Background}
     style={{
       paddingTop: '56.25%',
-      // paddingBottom: '56.25%',
       overflow: 'hidden',
       position: 'relative',
       display: 'block',
@@ -90,37 +68,14 @@ const Resume = () => (
     }}
   >
     <Section.Header name="Resume" icon="💥" label="boom" />
-
-    {/* <iframe
-      title="resume"
-      // src="https://resume.creddle.io/resume/b27prs0clh6"
-      width="device-width"
-      height="1100"
-      frameBorder="0"
-      seamless
-      // border: 0,
-      float: 'right',
-      minWidth: '320px',
-      maxWidth: '1366px',
-      display: 'flex',
-      flex: '0 1 auto',
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      margin: 'auto',
-    /> */}
     <iframe
       title="resume"
-      src="https://drive.google.com/file/d/1aiT0jRvU-urIL5YL4g6MaRv0RiEW4-ub/preview"
-      // src="https://resume.creddle.io/resume/b27prs0clh6"
+      src="https://drive.google.com/file/d/1aiT0jRvU-urIL5YL4g6MaRv0RiEW4-ub/view"
       frameBorder="0"
       width="device-width"
-      height="1060px"
       seamless
       overflow="hidden"
-      // scrolling="no"
       style={{
-        // scrolling: 'no',
         overflowX: 'hidden',
         overflowY: 'hidden',
       }}
