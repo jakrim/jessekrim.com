@@ -1,0 +1,26 @@
+@media (max-width: 1199px) {
+  iframe {
+    height: 1060px;
+  }
+}
+
+/* Style for Large Screen */
+@media (max-width: 991px) {
+  iframe {
+    height: 1040px;
+  }
+}
+
+/* Style for Medium Screen */
+@media (max-width: 767px) {
+  iframe {
+    height: 900px;
+  }
+}
+
+/* Style for Small Screen */
+@media (max-width: 575px) {
+  iframe {
+    height: 610px; /* whatever height you want for mobile */
+  }
+}

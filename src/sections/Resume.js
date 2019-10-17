@@ -6,6 +6,7 @@ import React from 'react';
 // import Fade from 'react-reveal/Fade';
 import Section from '../components/Section';
 import Triangle from '../components/Triangle';
+import '../responsive.css';
 // import markdownRenderer from '../components/MarkdownRenderer';
 
 // import { Container } from '../components/Section';
@@ -90,25 +91,38 @@ const Resume = () => (
   >
     <Section.Header name="Resume" icon="💥" label="boom" />
 
+    {/* <iframe
+      title="resume"
+      // src="https://resume.creddle.io/resume/b27prs0clh6"
+      width="device-width"
+      height="1100"
+      frameBorder="0"
+      seamless
+      // border: 0,
+      float: 'right',
+      minWidth: '320px',
+      maxWidth: '1366px',
+      display: 'flex',
+      flex: '0 1 auto',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      margin: 'auto',
+    /> */}
     <iframe
       title="resume"
-      src="https://resume.creddle.io/resume/b27prs0clh6"
-      width="850"
-      height="1100"
-      seamless
+      src="https://drive.google.com/file/d/16lOvmbS8ekNQib78OsUOjjgsEAX12RKF/preview"
+      // src="https://resume.creddle.io/resume/b27prs0clh6"
       frameBorder="0"
+      width="device-width"
+      height="1060px"
+      seamless
+      overflow="hidden"
+      // scrolling="no"
       style={{
-        alignContent: 'center',
-        float: 'right',
-        overflow: 'auto',
-        minWidth: '320px',
-        maxWidth: '1366px',
-        display: 'flex',
-        flex: '0 1 auto',
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        margin: 'auto',
+        // scrolling: 'no',
+        overflowX: 'hidden',
+        overflowY: 'hidden',
       }}
     />
   </Section.Container>
