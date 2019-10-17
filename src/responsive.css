@@ -21,6 +21,6 @@
 /* Style for Small Screen */
 @media (max-width: 575px) {
   iframe {
-    height: 610px; /* whatever height you want for mobile */
+    height: 110px;
   }
 }

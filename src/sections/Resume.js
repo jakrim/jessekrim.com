@@ -111,7 +111,7 @@ const Resume = () => (
     /> */}
     <iframe
       title="resume"
-      src="https://drive.google.com/file/d/16lOvmbS8ekNQib78OsUOjjgsEAX12RKF/preview"
+      src="https://drive.google.com/file/d/1aiT0jRvU-urIL5YL4g6MaRv0RiEW4-ub/preview"
       // src="https://resume.creddle.io/resume/b27prs0clh6"
       frameBorder="0"
       width="device-width"
