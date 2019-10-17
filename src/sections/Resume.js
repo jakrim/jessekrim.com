@@ -70,9 +70,10 @@ const Resume = () => (
     <Section.Header name="Resume" icon="💥" label="boom" />
     <iframe
       title="resume"
-      src="https://drive.google.com/file/d/1aiT0jRvU-urIL5YL4g6MaRv0RiEW4-ub/view?usp=sharing"
+      src="https://drive.google.com/file/d/1aiT0jRvU-urIL5YL4g6MaRv0RiEW4-ub/preview"
       frameBorder="0"
       width="device-width"
+      height="1060px"
       seamless
       overflow="hidden"
       style={{
