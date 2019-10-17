@@ -73,7 +73,7 @@ const Resume = () => (
       src="https://drive.google.com/file/d/1aiT0jRvU-urIL5YL4g6MaRv0RiEW4-ub/preview"
       frameBorder="0"
       width="device-width"
-      height="1060px"
+      height="1080px"
       seamless
       overflow="hidden"
       style={{
