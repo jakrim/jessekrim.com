@@ -70,7 +70,7 @@ const Resume = () => (
     <Section.Header name="Resume" icon="💥" label="boom" />
     <iframe
       title="resume"
-      src="https://drive.google.com/file/d/1FG8yiO-eWXZjPqRZerTgFprSGWWfxcbv/preview"
+      src="https://drive.google.com/file/d/1IBj-z92JYqO6PeUyTcY9vfCfZ_Qj-PHR/preview"
       frameBorder="0"
       height="1080px"
       width="device-width"
