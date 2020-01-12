@@ -28,8 +28,8 @@ const Background = () => (
     />
     <Triangle
       color="secondaryLight"
-      height={['80vh', '40vh']}
-      width={['20vw', '106vw']}
+      height={['80vh', '35vh']}
+      width={['20vw', '110vw']}
       invertX
     />
     <Triangle
@@ -68,9 +68,17 @@ const Resume = () => (
     }}
   >
     <Section.Header name="Resume" icon="💥" label="boom" />
+    <p
+      style={{
+        color: '#888',
+        margin: 2,
+      }}
+    >
+      (Project Titles and Descriptions are Clickable)
+    </p>
     <iframe
       title="resume"
-      src="https://drive.google.com/file/d/1IBj-z92JYqO6PeUyTcY9vfCfZ_Qj-PHR/preview"
+      src="https://resume.creddle.io/resume/b27prs0clh6"
       frameBorder="0"
       height="1090px"
       width="device-width"
