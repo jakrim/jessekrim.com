@@ -78,7 +78,7 @@ const Resume = () => (
     </p>
     <iframe
       title="resume"
-      src="https://resume.creddle.io/resume/b27prs0clh6"
+      src="https://resume.creddle.io/embed/b27prs0clh6"
       frameBorder="0"
       height="1090px"
       width="device-width"
